@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_globe_test/static/css/main.232235f9.css",
+    "main.js": "/react_globe_test/static/js/main.5c37cd12.js",
+    "index.html": "/react_globe_test/index.html",
+    "main.232235f9.css.map": "/react_globe_test/static/css/main.232235f9.css.map",
+    "main.5c37cd12.js.map": "/react_globe_test/static/js/main.5c37cd12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.232235f9.css",
+    "static/js/main.5c37cd12.js"
+  ]
+}
