@@ -22,8 +22,8 @@ const App = () => {
 
   const globeProps = {
     hexPolygonsData: polygons,
-    hexPolygonResolution: 3,
-    hexPolygonMargin: 0.2,
+    hexPolygonResolution: 4,
+    hexPolygonMargin: 0.05,
     hexPolygonColor: d => d.color,
     hexPolygonLabel: ({ properties: p }) => `
       <b>${p.NAME} (${p.ISO_A2})</b> <br />
