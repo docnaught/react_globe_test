@@ -1,0 +1,68 @@
+.activity-log {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 300px;
+  z-index: 1000;
+}
+
+.activity-log h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.log-container {
+  max-height: 200px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+
+.log-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.log-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.log-container::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}
+
+.no-activity {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-style: italic;
+}
+
+.activity-log ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activity-log li {
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.timestamp {
+  color: #2196f3;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.message {
+  color: rgba(255, 255, 255, 0.9);
+}
